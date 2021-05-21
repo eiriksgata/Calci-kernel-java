@@ -1,4 +1,4 @@
-import java.math.BigDecimal;
+package indi.eiriksgata.calci;
 
 /**
  * Created by Iraka Crow on 2017/4/12.
