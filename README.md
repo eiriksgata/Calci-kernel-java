@@ -27,5 +27,30 @@ fzero(x^2-x-1,1)
 sqrt(4+i)/arctan(-2i-1.1)^i
 ```
 
+## Maven
+
+Step 1. Add the JitPack repository to your build file
+
+```xml
+<repositories>
+	<repository>
+		   <id>jitpack.io</id>
+		   <url>https://www.jitpack.io</url>
+	</repository>
+</repositories>
+```
+
+Step 2. Add the dependency
+```xml
+<dependency>
+	 <groupId>com.github.Eiriksgata</groupId>
+	    <artifactId>Calci-kernel-java</artifactId>
+	 <version>Tag</version>
+</dependency>
+```
+
+Other import dependency
+[jitpack/Eiriksgata/Calci-kernel-java](https://www.jitpack.io/#Eiriksgata/Calci-kernel-java/1.0)
+
 An Android app using this kernel (Calci_X.X.X.apk) is provided.<br/>
 The present package is used in Calci 1.3.3.<br/>
