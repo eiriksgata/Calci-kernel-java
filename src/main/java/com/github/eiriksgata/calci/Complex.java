@@ -1,4 +1,4 @@
-package indi.eiriksgata.calci;
+package com.github.eiriksgata.calci;
 
 /*
  * Java Complex & Complex Function Class
@@ -7,9 +7,6 @@ package indi.eiriksgata.calci;
  */
 
 import java.lang.Math;
-import java.math.BigDecimal;
-import java.math.MathContext;
-import java.math.RoundingMode;
 
 public class Complex {
     public static Complex E = new Complex(Math.E);

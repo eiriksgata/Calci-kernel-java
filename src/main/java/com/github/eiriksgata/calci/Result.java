@@ -1,4 +1,4 @@
-package indi.eiriksgata.calci;
+package com.github.eiriksgata.calci;
 
 
 public class Result {

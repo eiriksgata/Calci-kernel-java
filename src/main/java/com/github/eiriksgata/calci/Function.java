@@ -1,4 +1,4 @@
-package indi.eiriksgata.calci;
+package com.github.eiriksgata.calci;
 
 /**
  * Created by Iraka Crow on 2017/3/25.

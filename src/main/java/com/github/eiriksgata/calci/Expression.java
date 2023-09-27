@@ -1,4 +1,4 @@
-package indi.eiriksgata.calci;
+package com.github.eiriksgata.calci;
 
 
 import java.util.ArrayList;
@@ -47,7 +47,7 @@ public class Expression {
         List<SymbolCachePair> list;
 
         SymbolCache() {
-            list = new ArrayList<>();
+            list = new ArrayList<SymbolCachePair>();
         }
 
         void submit(int end_pos_, int symbol_, int symbol_pos_) {
@@ -704,7 +704,7 @@ public class Expression {
 
         Complex x3;
         Result root = new Result(0);
-        List<Complex> histRes = new ArrayList<>();
+        List<Complex> histRes = new ArrayList<Complex>();
         double minDe = 1E200;
         int minPos = -1;
         int overErrorRangeCount = 0;
@@ -1199,7 +1199,7 @@ public class Expression {
 
         for (int i = 0; i < sect; i++) { // find directions in [0,pi)
 
-            List<Complex> histRes = new ArrayList<>();
+            List<Complex> histRes = new ArrayList<Complex>();
             double minDe = 1E200;
             int minPos = -1;
 
@@ -1266,7 +1266,7 @@ public class Expression {
             return new Result(1).append("Differentiator", "Invalid direction value", l, r);
 
 
-        List<Complex> histRes = new ArrayList<>();
+        List<Complex> histRes = new ArrayList<Complex>();
         double minDe = 1E200;
         int minPos = -1;
         double norm = dir.norm().re;

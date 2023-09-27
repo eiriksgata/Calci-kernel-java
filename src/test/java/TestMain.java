@@ -1,4 +1,4 @@
-import indi.eiriksgata.calci.Expression;
+import com.github.eiriksgata.calci.Expression;
 import org.junit.jupiter.api.Test;
 
 /**
