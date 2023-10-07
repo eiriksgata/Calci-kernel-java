@@ -43,14 +43,14 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 ```xml
 <dependency>
-	 <groupId>com.github.Eiriksgata</groupId>
+	 <groupId>com.github.eiriksgata</groupId>
 	    <artifactId>Calci-kernel-java</artifactId>
 	 <version>Tag</version>
 </dependency>
 ```
 
 Other import dependency
-[jitpack/Eiriksgata/Calci-kernel-java](https://www.jitpack.io/#Eiriksgata/Calci-kernel-java/1.0)
+[jitpack/eiriksgata/Calci-kernel-java](https://www.jitpack.io/#eiriksgata/Calci-kernel-java/1.0)
 
 An Android app using this kernel (Calci_X.X.X.apk) is provided.<br/>
 The present package is used in Calci 1.3.3.<br/>
